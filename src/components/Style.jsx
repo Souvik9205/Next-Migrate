@@ -29,6 +29,7 @@ function Style() {
       <link rel="stylesheet" href="assets/css/plugins/aos.css" />
       <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css" />
       <link rel="stylesheet" href="assets/css/style.css" />
+      <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css" />
     </div>
   );
 }
