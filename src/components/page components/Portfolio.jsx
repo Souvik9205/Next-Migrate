@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function Portfolio() {
   return (
@@ -28,28 +29,28 @@ function Portfolio() {
               </div>
               <div className="flex flex-wrap flex-col gap-3">
                 <div className="flex flex-wrap gap-2">
-                  <a
+                  <Link
                     className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400 transition-all hover:bg-active hover:border-active hover:text-white"
-                    href="projects.html"
+                    href="/projects"
                   >
                     APP
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400 transition-all hover:bg-active hover:border-active hover:text-white"
-                    href="projects.html"
+                    href="/projects"
                   >
                     DEVELOPMENT
-                  </a>
+                  </Link>
                 </div>
                 <div className="flex flex-wrap items-center justify-between text-black-800 hover:text-orange group">
                   <h4 className="font-bold font-Syne text-center leading-10 text-[20px] lg:text-[24px] xl:text-[32px] capitalize">
-                    <a className="transition-all" href="project-details.html">
+                    <Link className="transition-all" href="/project-details">
                       Basinik Finance App
-                    </a>
+                    </Link>
                   </h4>
-                  <a
+                  <Link
                     className="group-hover:animate-arrow-move-up"
-                    href="project-details.html"
+                    href="/project-details"
                   >
                     <svg
                       width={40}
@@ -73,7 +74,7 @@ function Portfolio() {
                         fillOpacity="0.9"
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -87,28 +88,28 @@ function Portfolio() {
               </div>
               <div className="flex flex-wrap flex-col gap-3">
                 <div className="flex flex-wrap gap-2">
-                  <a
+                  <Link
                     className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400 transition-all hover:bg-active hover:border-active hover:text-white"
-                    href="projects.html"
+                    href="/projects"
                   >
                     APP
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400 transition-all hover:bg-active hover:border-active hover:text-white"
-                    href="projects.html"
+                    href="/projects"
                   >
                     DEVELOPMENT
-                  </a>
+                  </Link>
                 </div>
                 <div className="flex flex-wrap items-center justify-between text-black-800 hover:text-orange group">
                   <h4 className="font-bold font-Syne text-center leading-10 text-[20px] lg:text-[24px] xl:text-[32px] capitalize">
-                    <a className="transition-all" href="project-details.html">
+                    <Link className="transition-all" href="/project-details">
                       Oxilex Dashboard design
-                    </a>
+                    </Link>
                   </h4>
-                  <a
+                  <Link
                     className="group-hover:animate-arrow-move-up"
-                    href="project-details.html"
+                    href="/project-details"
                   >
                     <svg
                       width={40}
@@ -132,15 +133,15 @@ function Portfolio() {
                         fillOpacity="0.9"
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
           <div className="col-span-12 mt-12" data-aos="fade-up">
             <div className="flex group">
-              <a
-                href="projects.html"
+              <Link
+                href="/projects"
                 className="flex items-center justify-center flex-wrap btn-primary grow"
               >
                 View All Project
@@ -170,7 +171,7 @@ function Portfolio() {
                     />
                   </svg>
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

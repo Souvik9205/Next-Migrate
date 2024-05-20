@@ -1,6 +1,23 @@
-import React from "react";
+"use client";
+import { useForm } from "react-hook-form";
 
-function Contract() {
+/**
+ * @typedef {Object} FormData
+ * @property {string} name
+ * @property {string} email
+ * @property {string} phone
+ * @property {string} subject
+ * @property {string} message
+ *
+ */
+
+function Contact() {
+  const { register, handleSubmit } = useForm();
+
+  function onSubmit(data) {
+    sendEmail(data);
+  }
+
   return (
     <div>
       <section className="bg-white pt-20 pb-[120px]">
@@ -129,8 +146,7 @@ function Contract() {
             >
               <form
                 id="contact-form"
-                action="mail.php"
-                method="post"
+                onSubmit={handleSubmit(onSubmit)}
                 className="grid grid-cols-12 gap-[18px]"
               >
                 <div className="col-span-12 md:col-span-6">
@@ -144,15 +160,14 @@ function Contract() {
                     id="name"
                     className="font-normal w-full leading-7 placeholder:opacity-100 placeholder:text-black-text-600 border border-black-800 border-opacity-40 rounded-[8px] p-4 focus:border-black-800 focus:border-opacity-40 focus:outline-none "
                     type="text"
-                    required=""
+                    {...register("name", { required: true })}
                     placeholder="Your name*"
-                    name="name"
                   />
                 </div>
                 <div className="col-span-12 md:col-span-6">
                   <label
                     className="text-sm font-normal font-Inter leading-tight mb-3 block"
-                    htmlFor="Email"
+                    htmlFor="email"
                   >
                     Email
                   </label>
@@ -160,15 +175,14 @@ function Contract() {
                     id="Email"
                     className="font-normal w-full leading-7 placeholder:opacity-100 placeholder:text-black-text-600 border border-black-800 border-opacity-40 rounded-[8px] p-4 focus:border-black-800 focus:border-opacity-40 focus:outline-none "
                     type="email"
-                    required=""
-                    placeholder="Your email*"
-                    name="email"
+                    {...register("email", { required: true })}
+                    placeholder="example@domain.com*"
                   />
                 </div>
                 <div className="col-span-12 md:col-span-6">
                   <label
                     className="text-sm font-normal font-Inter leading-tight mb-3 block"
-                    htmlFor="Phone"
+                    htmlFor="phone"
                   >
                     Phone
                   </label>
@@ -176,15 +190,14 @@ function Contract() {
                     id="Phone"
                     className="font-normal w-full leading-7 placeholder:opacity-100 placeholder:text-black-text-600 border border-black-800 border-opacity-40 rounded-[8px] p-4 focus:border-black-800 focus:border-opacity-40 focus:outline-none "
                     type="text"
-                    required=""
+                    {...register("phone", { required: true })}
                     placeholder="Your number"
-                    name="phone"
                   />
                 </div>
                 <div className="col-span-12 md:col-span-6">
                   <label
                     className="text-sm font-normal font-Inter leading-tight mb-3 block"
-                    htmlFor="Subject"
+                    htmlFor="subject"
                   >
                     Subject*
                   </label>
@@ -192,25 +205,23 @@ function Contract() {
                     id="Subject"
                     className="font-normal w-full leading-7 placeholder:opacity-100 placeholder:text-black-text-600 border border-black-800 border-opacity-40 rounded-[8px] p-4 focus:border-black-800 focus:border-opacity-40 focus:outline-none "
                     type="text"
-                    required=""
+                    {...register("subject", { required: true })}
                     placeholder="Your subject*"
-                    name="subject"
                   />
                 </div>
                 <div className="col-span-12">
                   <label
                     className="text-sm font-normal font-Inter leading-tight mb-3 block"
-                    htmlFor="Message"
+                    htmlFor="message"
                   >
                     Message
                   </label>
                   <textarea
                     className="h-[100px] font-normal w-full leading-7 placeholder:opacity-100 placeholder:text-black-text-600 border border-black-800 border-opacity-40 rounded-[8px] p-4 focus:border-black-800 focus:border-opacity-40 focus:outline-none resize-none"
-                    name="message"
                     id="Message"
                     cols={30}
                     rows={10}
-                    required=""
+                    {...register("message", { required: true })}
                     placeholder="Type your message"
                     defaultValue={""}
                   />
@@ -359,4 +370,4 @@ function Contract() {
   );
 }
 
-export default Contract;
+export default Contact;

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function Service() {
   return (
@@ -62,8 +63,8 @@ function Service() {
                   </div>
                   {/* Icon End */}
                   <h4>
-                    <a
-                      href="projects.html"
+                    <Link
+                      href="/projects"
                       className="flex flex-wrap items-end justify-between font-bold text-xl font-Syne text-black-800 group-hover:text-orange transition-all"
                     >
                       Mobile Apps <br />
@@ -96,7 +97,7 @@ function Service() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </h4>
                 </div>
                 {/* service Item End */}
@@ -168,8 +169,8 @@ function Service() {
                   </div>
                   {/* Icon End */}
                   <h4>
-                    <a
-                      href="projects.html"
+                    <Link
+                      href="/projects"
                       className="flex flex-wrap items-end justify-between font-bold text-xl font-Syne text-black-800 group-hover:text-orange transition-all"
                     >
                       UI/UX <br />
@@ -202,7 +203,7 @@ function Service() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </h4>
                 </div>
                 {/* service Item End */}
@@ -307,8 +308,8 @@ function Service() {
                   </div>
                   {/* Icon End */}
                   <h4>
-                    <a
-                      href="projects.html"
+                    <Link
+                      href="/projects"
                       className="flex flex-wrap items-end justify-between font-bold text-xl font-Syne text-black-800 group-hover:text-orange transition-all"
                     >
                       Website <br />
@@ -341,7 +342,7 @@ function Service() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </h4>
                 </div>
                 {/* service Item End */}
@@ -401,8 +402,8 @@ function Service() {
                   </div>
                   {/* Icon End */}
                   <h4>
-                    <a
-                      href="projects.html"
+                    <Link
+                      href="/projects"
                       className="flex flex-wrap items-end justify-between font-bold text-xl font-Syne text-black-800 group-hover:text-orange transition-all"
                     >
                       Webflow <br />
@@ -435,7 +436,7 @@ function Service() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </h4>
                 </div>
                 {/* service Item End */}
@@ -489,8 +490,8 @@ function Service() {
                   </div>
                   {/* Icon End */}
                   <h4>
-                    <a
-                      href="projects.html"
+                    <Link
+                      href="/projects"
                       className="flex flex-wrap items-end justify-between font-bold text-xl font-Syne text-black-800 group-hover:text-orange transition-all"
                     >
                       Brand <br />
@@ -523,7 +524,7 @@ function Service() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </h4>
                 </div>
                 {/* service Item End */}
@@ -572,8 +573,8 @@ function Service() {
                   </div>
                   {/* Icon End */}
                   <h4>
-                    <a
-                      href="projects.html"
+                    <Link
+                      href="/projects"
                       className="flex flex-wrap items-end justify-between font-bold text-xl font-Syne text-black-800 group-hover:text-orange transition-all"
                     >
                       Interaction <br />
@@ -606,7 +607,7 @@ function Service() {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </h4>
                 </div>
                 {/* service Item End */}
@@ -619,8 +620,8 @@ function Service() {
             >
               <div className="px-6 py-9 bg-black-800 rounded-lg flex flex-wrap flex-col justify-between max-w-[416px] mx-auto h-full group">
                 <div className="flex flex-wrap justify-end relative">
-                  <a
-                    href="contact.html"
+                  <Link
+                    href="/contact"
                     className="group-hover:animate-arrow-move-up"
                   >
                     <svg
@@ -645,7 +646,7 @@ function Service() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
                 <div className="flex flex-col flex-wrap gap-y-2">
                   <span className="text-orange text-lg font-normal leading-none">

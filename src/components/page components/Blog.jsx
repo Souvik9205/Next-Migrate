@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function Blog() {
   return (
@@ -44,12 +45,12 @@ function Blog() {
                 </ul>
                 <div className="flex justify-between items-end text-black-800 hover:text-orange group">
                   <h4 className="font-bold font-Syne transition-all leading-8 text-[18px] md:text-[20px] 2xl:text-[22px]">
-                    <a href="blog-details.html">
+                    <Link href="/blog-details">
                       Right-lo-left behind development in mobile web design
-                    </a>
+                    </Link>
                   </h4>
-                  <a
-                    href="blog-details.html"
+                  <Link
+                    href="/blog-details"
                     className="group-hover:animate-arrow-move-up"
                   >
                     <svg
@@ -74,7 +75,7 @@ function Blog() {
                         fillOpacity="0.9"
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -103,12 +104,12 @@ function Blog() {
                 </ul>
                 <div className="flex justify-between items-end text-black-800 hover:text-orange group">
                   <h4 className="font-bold font-Syne transition-all leading-8 text-[18px] md:text-[20px] 2xl:text-[22px]">
-                    <a href="blog-details.html">
+                    <Link href="/blog-details">
                       Connect craft: Reading the smart experience
-                    </a>
+                    </Link>
                   </h4>
-                  <a
-                    href="blog-details.html"
+                  <Link
+                    href="/blog-details"
                     className="group-hover:animate-arrow-move-up"
                   >
                     <svg
@@ -133,7 +134,7 @@ function Blog() {
                         fillOpacity="0.9"
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -162,12 +163,12 @@ function Blog() {
                 </ul>
                 <div className="flex justify-between items-end text-black-800 hover:text-orange group">
                   <h4 className="font-bold font-Syne transition-all leading-8 text-[18px] md:text-[20px] 2xl:text-[22px]">
-                    <a href="blog-details.html">
+                    <Link href="/blog-details">
                       Ecoglow: Sustainable skincare a brighter tomorrow
-                    </a>
+                    </Link>
                   </h4>
-                  <a
-                    href="blog-details.html"
+                  <Link
+                    href="/blog-details"
                     className="group-hover:animate-arrow-move-up"
                   >
                     <svg
@@ -192,7 +193,7 @@ function Blog() {
                         fillOpacity="0.9"
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -221,12 +222,12 @@ function Blog() {
                 </ul>
                 <div className="flex justify-between items-end text-black-800 hover:text-orange group">
                   <h4 className="font-bold font-Syne transition-all leading-8 text-[18px] md:text-[20px] 2xl:text-[22px]">
-                    <a href="blog-details.html">
+                    <Link href="/blog-details">
                       Right-lo-left behind development in mobile web design
-                    </a>
+                    </Link>
                   </h4>
-                  <a
-                    href="blog-details.html"
+                  <Link
+                    href="/blog-details"
                     className="group-hover:animate-arrow-move-up"
                   >
                     <svg
@@ -251,7 +252,7 @@ function Blog() {
                         fillOpacity="0.9"
                       />
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

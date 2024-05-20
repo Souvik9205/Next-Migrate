@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function About() {
   return (
@@ -57,8 +58,8 @@ function About() {
                 </li>
               </ul>
               <div className="flex flex-wrap">
-                <a
-                  href="contact.html"
+                <Link
+                  href="/contact"
                   className="flex items-center flex-wrap btn-primary group"
                 >
                   Download my resume
@@ -88,7 +89,7 @@ function About() {
                       />
                     </svg>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

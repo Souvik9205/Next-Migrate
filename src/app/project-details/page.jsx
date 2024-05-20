@@ -1,6 +1,6 @@
 import React from "react";
 import Style from "@/components/Style";
-import Header from "@/components/page components/Header";
+import Headers from "@/components/page components/Headers";
 import OffsetMenu from "@/components/page components/OffsetMenu";
 import Footer from "@/components/AboutPage components/Footer";
 import Hero from "@/components/Project components/Hero";
@@ -12,7 +12,7 @@ function page() {
       <Style />
       <div class="overflow-x-hidden">
         {/* Header */}
-        <Header />
+        <Headers />
         <OffsetMenu />
 
         {/* Hero */}

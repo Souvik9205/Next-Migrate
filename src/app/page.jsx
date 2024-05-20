@@ -1,3 +1,4 @@
+import React from "react";
 import Style from "@/components/style";
 import Header from "@/components/page components/Header";
 import OffsetMenu from "@/components/page components/OffsetMenu";
@@ -11,6 +12,7 @@ import Brand from "@/components/page components/Brand";
 import Blog from "@/components/page components/Blog";
 import Pricing from "@/components/page components/Pricing";
 import Footer from "@/components/page components/Footer";
+import TestimonalBody from "@/components/Extra components/TestimonalBody";
 
 const page = () => {
   return (
@@ -22,6 +24,7 @@ const page = () => {
         <OffsetMenu />
 
         {/* Hero */}
+        <Hero />
 
         {/* Service */}
         <Service />
@@ -36,10 +39,17 @@ const page = () => {
         <Portfolio />
 
         {/* Testimonals */}
-        {/* <Testimonals /> */}
+        <div className="flex flex-col my-5 pl-10 ml-10 xl:flex-row gap-x-[55px] 2xl:gap-x-[100px] 3xl:gap-x-[165px]">
+          <Testimonals />
+          <TestimonalBody />
+        </div>
 
         {/* Brand */}
-        {/* <Brand /> */}
+        <div className="bg-white " data-aos="flip-down">
+          <div className="container">
+            <Brand />
+          </div>
+        </div>
 
         {/* Blog */}
         <Blog />

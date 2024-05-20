@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function Pricing() {
   return (
@@ -26,8 +27,8 @@ function Pricing() {
                   data-aos="fade-up"
                   data-aos-delay={200}
                 >
-                  <a
-                    href="contact.html"
+                  <Link
+                    href="/contact"
                     className="flex items-center flex-wrap btn-primary group"
                   >
                     Contact for Custom Project
@@ -57,7 +58,7 @@ function Pricing() {
                         />
                       </svg>
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

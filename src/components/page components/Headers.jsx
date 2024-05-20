@@ -1,21 +1,19 @@
 import React from "react";
 import Link from "next/link";
 
-function Header() {
+function Headers() {
   return (
     <div>
-      <header
-        id="sticky-header"
-        className="xl:pl-12 absolute left-0 top-0 w-full z-10"
-      >
+      <header id="sticky-header" className="xl:pl-12 bg-white">
         <div className="flex pl-4 xl:pl-0">
-          <div className="flex-1 flex items-center justify-between border-b border-black-800 border-opacity-40">
+          <div className="flex-1 flex items-center justify-between">
             <Link href="/">
               <img src="assets/images/logo/logo.png" alt="logo" />
             </Link>
+            {/* Link Start */}
             <Link
               href="/contact"
-              className="flex items-center flex-wrap py-[6px] px-3 text-[15px] font-bold text-active leading-none mr-2 transition-all duration-300 hover:text-orange md:hover:text-white group"
+              className="flex items-center flex-wrap py-[6px] px-3 text-[15px] font-bold text-active leading-none mr-2 transition-all duration-300 hover:text-orange group"
             >
               Let’s Talk
               <span className="inline-block ml-3 group-hover:animate-arrow-move-up">
@@ -45,7 +43,9 @@ function Header() {
                 </svg>
               </span>
             </Link>
+            {/* Link End */}
           </div>
+          {/* Button Start */}
           <div
             id="offcanvas-toggle"
             className="flex-none bg-active flex items-center flex-wrap justify-center py-7 px-[38px] cursor-pointer"
@@ -63,10 +63,11 @@ function Header() {
               </svg>
             </button>
           </div>
+          {/* Button End */}
         </div>
       </header>
     </div>
   );
 }
 
-export default Header;
+export default Headers;

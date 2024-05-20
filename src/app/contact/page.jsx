@@ -1,6 +1,6 @@
 import React from "react";
 import Style from "@/components/Style";
-import Header from "@/components/page components/Header";
+import Headers from "@/components/page components/Headers";
 import OffsetMenu from "@/components/page components/OffsetMenu";
 import Footer from "@/components/AboutPage components/Footer";
 import Contract from "@/components/Contract";
@@ -9,9 +9,9 @@ function page() {
   return (
     <>
       <Style />
-      <div class="overflow-x-hidden">
+      <div className="overflow-x-hidden">
         {/* Header */}
-        <Header />
+        <Headers />
         <OffsetMenu />
 
         {/* Contact */}

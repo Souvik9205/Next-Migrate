@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function OffsetMenu() {
   return (
@@ -8,9 +9,9 @@ function OffsetMenu() {
     >
       <div>
         <div className="flex flex-wrap justify-between items-center border-b border-border-white mb-[80px]">
-          <a href="index.html">
+          <Link href="/">
             <img src="assets/images/logo/offcanvas-logo.png" alt="" />
-          </a>
+          </Link>
           <button
             id="offcanvas-close"
             className="offcanvas-close bg-primary py-7 px-[38px]"
@@ -41,8 +42,8 @@ function OffsetMenu() {
         <nav className="offcanvas-menu mr-[40px] flex flex-wrap flex-col justify-between">
           <ul>
             <li className="border-b border-border-white py-4 group">
-              <a
-                href="index.html"
+              <Link
+                href="/"
                 className="text-white text-xl font-bold font-Syne leading-none flex flex-wrap items-center justify-between hover:text-orange transition duration-300"
               >
                 Home
@@ -72,11 +73,11 @@ function OffsetMenu() {
                     />
                   </svg>
                 </span>
-              </a>
+              </Link>
             </li>
             <li className="border-b border-border-white py-4 group">
-              <a
-                href="about.html"
+              <Link
+                href="/about"
                 className="text-white text-xl font-bold font-Syne leading-none flex flex-wrap items-center justify-between hover:text-orange transition duration-300"
               >
                 About
@@ -106,11 +107,11 @@ function OffsetMenu() {
                     />
                   </svg>
                 </span>
-              </a>
+              </Link>
             </li>
             <li className="border-b border-border-white py-4 group">
-              <a
-                href="projects.html"
+              <Link
+                href="/projects"
                 className="text-white text-xl font-bold font-Syne leading-none flex flex-wrap items-center justify-between hover:text-orange transition duration-300"
               >
                 Project
@@ -140,11 +141,11 @@ function OffsetMenu() {
                     />
                   </svg>
                 </span>
-              </a>
+              </Link>
             </li>
             <li className="border-b border-border-white py-4 group">
-              <a
-                href="project-details.html"
+              <Link
+                href="/project-details"
                 className="text-white text-xl font-bold font-Syne leading-none flex flex-wrap items-center justify-between hover:text-orange transition duration-300"
               >
                 Project details
@@ -174,11 +175,11 @@ function OffsetMenu() {
                     />
                   </svg>
                 </span>
-              </a>
+              </Link>
             </li>
             <li className="border-b border-border-white py-4 group">
-              <a
-                href="blog.html"
+              <Link
+                href="/blog"
                 className="text-white text-xl font-bold font-Syne leading-none flex flex-wrap items-center justify-between hover:text-orange transition duration-300"
               >
                 Blog
@@ -208,11 +209,11 @@ function OffsetMenu() {
                     />
                   </svg>
                 </span>
-              </a>
+              </Link>
             </li>
             <li className="border-b border-border-white py-4 group">
-              <a
-                href="blog-details.html"
+              <Link
+                href="/blog-details"
                 className="text-white text-xl font-bold font-Syne leading-none flex flex-wrap items-center justify-between hover:text-orange transition duration-300"
               >
                 Blog Details
@@ -242,11 +243,11 @@ function OffsetMenu() {
                     />
                   </svg>
                 </span>
-              </a>
+              </Link>
             </li>
             <li className="border-b border-border-white py-4 group">
-              <a
-                href="contact.html"
+              <Link
+                href="/contact"
                 className="text-white text-xl font-bold font-Syne leading-none flex flex-wrap items-center justify-between hover:text-orange transition duration-300"
               >
                 Contact
@@ -276,7 +277,7 @@ function OffsetMenu() {
                     />
                   </svg>
                 </span>
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
