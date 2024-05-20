@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 function ContactForm() {
   const [name, setName] = useState("");
@@ -12,14 +13,33 @@ function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    const serviceID = process.env.NEXT_PUBLIC_SERVICE_ID;
+    const templateID = "template_vme64ag";
+    const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY;
+
     const formData = {
-      name,
-      email,
-      phone,
-      subject,
-      message,
+      user_name: name,
+      user_email: email,
+      user_phone: phone,
+      subject: subject,
+      user_message: message,
     };
-    console.log(formData);
+
+    emailjs
+      .send(serviceID, templateID, formData, publicKey)
+      .then((response) => {
+        console.log("Email send successfully", response);
+        setName("");
+        setEmail("");
+        setSubject("");
+        setPhone("");
+        setMessage("");
+      })
+      .catch((error) => {
+        console.error("Error while sending Email", error);
+      });
+
     setSubmited(true);
   };
 
