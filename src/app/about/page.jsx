@@ -1,15 +1,15 @@
 import React from "react";
-import Style from "@/components/Style";
-import Headers from "@/components/page components/Headers";
-import OffsetMenu from "@/components/page components/OffsetMenu";
-import About from "@/components/AboutPage components/About";
-import Experience from "@/components/AboutPage components/Experience";
-import Video from "@/components/AboutPage components/Video";
-import Tab from "@/components/AboutPage components/Tab";
-import Footer from "@/components/AboutPage components/Footer";
-import TestimonalBody from "@/components/Extra components/TestimonalBody";
-import Testimonals from "@/components/page components/Testimonals";
-import Brand from "@/components/page components/Brand";
+import Style from "../../components/Style";
+import Headers from "../../components/page components/Headers";
+import OffsetMenu from "../../components/page components/OffsetMenu";
+import About from "../../components/AboutPage components/About";
+import Experience from "../../components/AboutPage components/Experience";
+import Video from "../../components/AboutPage components/Video";
+import Tab from "../../components/AboutPage components/Tab";
+import Footer from "../../components/AboutPage components/Footer";
+import TestimonalBody from "../../components/Extra components/TestimonalBody";
+import Testimonals from "../../components/page components/Testimonals";
+import Brand from "../../components/page components/Brand";
 
 function page() {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
-import Style from "@/components/Style";
-import Headers from "@/components/page components/Headers";
-import OffsetMenu from "@/components/page components/OffsetMenu";
-import Footer from "@/components/AboutPage components/Footer";
-import Section from "@/components/Project components/Section";
+import Style from "../../components/Style";
+import Headers from "../../components/page components/Headers";
+import OffsetMenu from "../../components/page components/OffsetMenu";
+import Footer from "../../components/AboutPage components/Footer";
+import Section from "../../components/Project components/Section";
 
 function page() {
   return (

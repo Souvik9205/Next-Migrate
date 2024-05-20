@@ -1,18 +1,18 @@
 import React from "react";
-import Style from "@/components/style";
-import Header from "@/components/page components/Header";
-import OffsetMenu from "@/components/page components/OffsetMenu";
-import Hero from "@/components/page components/Hero";
-import Service from "@/components/page components/Service";
-import About from "@/components/page components/About";
-import Section from "@/components/page components/Section";
-import Portfolio from "@/components/page components/Portfolio";
-import Testimonals from "@/components/page components/Testimonals";
-import Brand from "@/components/page components/Brand";
-import Blog from "@/components/page components/Blog";
-import Pricing from "@/components/page components/Pricing";
-import Footer from "@/components/page components/Footer";
-import TestimonalBody from "@/components/Extra components/TestimonalBody";
+import Style from "../components/Style";
+import Header from "../components/page components/Header";
+import OffsetMenu from "../components/page components/OffsetMenu";
+import Hero from "../components/page components/Hero";
+import Service from "../components/page components/Service";
+import About from "../components/page components/About";
+import Section from "../components/page components/Section";
+import Portfolio from "../components/page components/Portfolio";
+import Testimonals from "../components/page components/Testimonals";
+import Brand from "../components/page components/Brand";
+import Blog from "../components/page components/Blog";
+import Pricing from "../components/page components/Pricing";
+import Footer from "../components/page components/Footer";
+import TestimonalBody from "../components/Extra components/TestimonalBody";
 
 const page = () => {
   return (
