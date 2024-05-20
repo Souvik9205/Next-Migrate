@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 function Blog() {
   return (
@@ -45,11 +44,11 @@ function Blog() {
                 </ul>
                 <div className="flex justify-between items-end text-black-800 hover:text-orange group">
                   <h4 className="font-bold font-Syne transition-all leading-8 text-[18px] md:text-[20px] 2xl:text-[22px]">
-                    <Link href="/blog-details">
+                    <a href="/blog-details">
                       Right-lo-left behind development in mobile web design
-                    </Link>
+                    </a>
                   </h4>
-                  <Link
+                  <a
                     href="/blog-details"
                     className="group-hover:animate-arrow-move-up"
                   >
@@ -75,7 +74,7 @@ function Blog() {
                         fillOpacity="0.9"
                       />
                     </svg>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
@@ -104,11 +103,11 @@ function Blog() {
                 </ul>
                 <div className="flex justify-between items-end text-black-800 hover:text-orange group">
                   <h4 className="font-bold font-Syne transition-all leading-8 text-[18px] md:text-[20px] 2xl:text-[22px]">
-                    <Link href="/blog-details">
+                    <a href="/blog-details">
                       Connect craft: Reading the smart experience
-                    </Link>
+                    </a>
                   </h4>
-                  <Link
+                  <a
                     href="/blog-details"
                     className="group-hover:animate-arrow-move-up"
                   >
@@ -134,7 +133,7 @@ function Blog() {
                         fillOpacity="0.9"
                       />
                     </svg>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
@@ -163,11 +162,11 @@ function Blog() {
                 </ul>
                 <div className="flex justify-between items-end text-black-800 hover:text-orange group">
                   <h4 className="font-bold font-Syne transition-all leading-8 text-[18px] md:text-[20px] 2xl:text-[22px]">
-                    <Link href="/blog-details">
+                    <a href="/blog-details">
                       Ecoglow: Sustainable skincare a brighter tomorrow
-                    </Link>
+                    </a>
                   </h4>
-                  <Link
+                  <a
                     href="/blog-details"
                     className="group-hover:animate-arrow-move-up"
                   >
@@ -193,7 +192,7 @@ function Blog() {
                         fillOpacity="0.9"
                       />
                     </svg>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
@@ -222,11 +221,11 @@ function Blog() {
                 </ul>
                 <div className="flex justify-between items-end text-black-800 hover:text-orange group">
                   <h4 className="font-bold font-Syne transition-all leading-8 text-[18px] md:text-[20px] 2xl:text-[22px]">
-                    <Link href="/blog-details">
+                    <a href="/blog-details">
                       Right-lo-left behind development in mobile web design
-                    </Link>
+                    </a>
                   </h4>
-                  <Link
+                  <a
                     href="/blog-details"
                     className="group-hover:animate-arrow-move-up"
                   >
@@ -252,7 +251,7 @@ function Blog() {
                         fillOpacity="0.9"
                       />
                     </svg>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

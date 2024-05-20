@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 function Work() {
   return (
@@ -25,26 +24,26 @@ function Work() {
               </div>
               <div className="flex flex-wrap flex-col gap-3">
                 <div className="flex flex-wrap gap-2">
-                  <Link
+                  <a
                     className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400 transition-all hover:bg-active hover:border-active hover:text-white"
                     href="/projects"
                   >
                     APP
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400 transition-all hover:bg-active hover:border-active hover:text-white"
                     href="/projects"
                   >
                     DEVELOPMENT
-                  </Link>
+                  </a>
                 </div>
                 <div className="flex flex-wrap items-center justify-between text-black-800 hover:text-orange group">
                   <h4 className="font-bold font-Syne text-center leading-10 text-[17px] sm:text-[20px] xl:text-[24px] 2xl:text-[28px] capitalize">
-                    <Link className="transition-all" href="/project-details">
+                    <a className="transition-all" href="/project-details">
                       Basinik Finance App
-                    </Link>
+                    </a>
                   </h4>
-                  <Link
+                  <a
                     href="/project-details"
                     className="group-hover:animate-arrow-move-up"
                   >
@@ -70,7 +69,7 @@ function Work() {
                         fillOpacity="0.9"
                       />
                     </svg>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
@@ -84,26 +83,26 @@ function Work() {
               </div>
               <div className="flex flex-wrap flex-col gap-3">
                 <div className="flex flex-wrap gap-2">
-                  <Link
+                  <a
                     className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400 transition-all hover:bg-active hover:border-active hover:text-white"
                     href="/projects"
                   >
                     APP
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     className="text-xs text-black-text-800 uppercase font-medium font-Inter leading-none py-[6px] px-4 rounded-[40px] border border-black-text-400 transition-all hover:bg-active hover:border-active hover:text-white"
                     href="/projects"
                   >
                     DEVELOPMENT
-                  </Link>
+                  </a>
                 </div>
                 <div className="flex flex-wrap items-center justify-between text-black-800 hover:text-orange group">
                   <h4 className="font-bold font-Syne text-center leading-10 text-[17px] sm:text-[20px] xl:text-[24px] 2xl:text-[28px] capitalize">
-                    <Link className="transition-all" href="/project-details">
+                    <a className="transition-all" href="/project-details">
                       Oxilex Dashboard design
-                    </Link>
+                    </a>
                   </h4>
-                  <Link
+                  <a
                     href="/project-details"
                     className="group-hover:animate-arrow-move-up"
                   >
@@ -129,7 +128,7 @@ function Work() {
                         fillOpacity="0.9"
                       />
                     </svg>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

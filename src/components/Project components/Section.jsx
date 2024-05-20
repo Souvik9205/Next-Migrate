@@ -38,12 +38,12 @@ function Section() {
                 <div className="absolute bottom-[-150px] left-6 right-6 transition-all duration-300 group-hover:bottom-6">
                   <div className="flex flex-wrap items-center justify-between text-white hover:text-orange group">
                     <h4 className="font-bold font-Syne text-center leading-10 text-[17px] sm:text-[20px] xl:text-[24px] 2xl:text-[28px] capitalize peer">
-                      <a className="transition-all" href="project-details.html">
+                      <a className="transition-all" href="/project-details">
                         Oxilex Dashboard design
                       </a>
                     </h4>
                     <a
-                      href="project-details.html"
+                      href="/project-details"
                       className="peer-hover:animate-arrow-move-up"
                     >
                       <svg
@@ -87,12 +87,12 @@ function Section() {
                 <div className="absolute bottom-[-150px] left-6 right-6 transition-all duration-300 group-hover:bottom-6">
                   <div className="flex flex-wrap items-center justify-between text-white hover:text-orange">
                     <h4 className="font-bold font-Syne text-center leading-10 text-[17px] sm:text-[20px] xl:text-[24px] 2xl:text-[28px] capitalize peer">
-                      <a className="transition-all" href="project-details.html">
+                      <a className="transition-all" href="/project-details">
                         Oxilex Dashboard design
                       </a>
                     </h4>
                     <a
-                      href="project-details.html"
+                      href="/project-details"
                       className="peer-hover:animate-arrow-move-up"
                     >
                       <svg
@@ -136,12 +136,12 @@ function Section() {
                 <div className="absolute bottom-[-150px] left-6 right-6 transition-all duration-300 group-hover:bottom-6">
                   <div className="flex flex-wrap items-center justify-between text-white hover:text-orange">
                     <h4 className="font-bold font-Syne text-center leading-10 text-[17px] sm:text-[20px] xl:text-[24px] 2xl:text-[28px] capitalize peer">
-                      <a className="transition-all" href="project-details.html">
+                      <a className="transition-all" href="/project-details">
                         Oxilex Dashboard
                       </a>
                     </h4>
                     <a
-                      href="project-details.html"
+                      href="/project-details"
                       className="peer-hover:animate-arrow-move-up"
                     >
                       <svg
@@ -185,12 +185,12 @@ function Section() {
                 <div className="absolute bottom-[-150px] left-6 right-6 transition-all duration-300 group-hover:bottom-6">
                   <div className="flex flex-wrap items-center justify-between text-white hover:text-orange">
                     <h4 className="font-bold font-Syne text-center leading-10 text-[17px] sm:text-[20px] xl:text-[24px] 2xl:text-[28px] capitalize peer">
-                      <a className="transition-all" href="project-details.html">
+                      <a className="transition-all" href="/project-details">
                         Oxilex Dashboard
                       </a>
                     </h4>
                     <a
-                      href="project-details.html"
+                      href="/project-details"
                       className="peer-hover:animate-arrow-move-up"
                     >
                       <svg
@@ -234,12 +234,12 @@ function Section() {
                 <div className="absolute bottom-[-150px] left-6 right-6 transition-all duration-300 group-hover:bottom-6">
                   <div className="flex flex-wrap items-center justify-between text-white hover:text-orange">
                     <h4 className="font-bold font-Syne text-center leading-10 text-[17px] sm:text-[20px] xl:text-[24px] 2xl:text-[28px] capitalize peer">
-                      <a className="transition-all" href="project-details.html">
+                      <a className="transition-all" href="/project-details">
                         Oxilex Apps{" "}
                       </a>
                     </h4>
                     <a
-                      href="project-details.html"
+                      href="/project-details"
                       className="peer-hover:animate-arrow-move-up"
                     >
                       <svg
@@ -282,12 +282,12 @@ function Section() {
                 <div className="absolute bottom-[-150px] left-6 right-6 transition-all duration-300 group-hover:bottom-6">
                   <div className="flex flex-wrap items-center justify-between text-white hover:text-orange">
                     <h4 className="font-bold font-Syne text-center leading-10 text-[17px] sm:text-[20px] xl:text-[24px] 2xl:text-[28px] capitalize peer">
-                      <a className="transition-all" href="project-details.html">
+                      <a className="transition-all" href="/project-details">
                         Oxilex Dashboard
                       </a>
                     </h4>
                     <a
-                      href="project-details.html"
+                      href="/project-details"
                       className="peer-hover:animate-arrow-move-up"
                     >
                       <svg
@@ -331,12 +331,12 @@ function Section() {
                 <div className="absolute bottom-[-150px] left-6 right-6 transition-all duration-300 group-hover:bottom-6">
                   <div className="flex flex-wrap items-center justify-between text-white hover:text-orange">
                     <h4 className="font-bold font-Syne text-center leading-10 text-[17px] sm:text-[20px] xl:text-[24px] 2xl:text-[28px] capitalize peer">
-                      <a className="transition-all" href="project-details.html">
+                      <a className="transition-all" href="/project-details">
                         Oxilex Dashboard design
                       </a>
                     </h4>
                     <a
-                      href="project-details.html"
+                      href="/project-details"
                       className="peer-hover:animate-arrow-move-up"
                     >
                       <svg

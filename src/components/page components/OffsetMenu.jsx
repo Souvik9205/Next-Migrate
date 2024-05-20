@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 function OffsetMenu() {
   return (
@@ -9,9 +8,9 @@ function OffsetMenu() {
     >
       <div>
         <div className="flex flex-wrap justify-between items-center border-b border-border-white mb-[80px]">
-          <Link href="/">
+          <a href="/">
             <img src="assets/images/logo/offcanvas-logo.png" alt="" />
-          </Link>
+          </a>
           <button
             id="offcanvas-close"
             className="offcanvas-close bg-primary py-7 px-[38px]"
@@ -42,7 +41,7 @@ function OffsetMenu() {
         <nav className="offcanvas-menu mr-[40px] flex flex-wrap flex-col justify-between">
           <ul>
             <li className="border-b border-border-white py-4 group">
-              <Link
+              <a
                 href="/"
                 className="text-white text-xl font-bold font-Syne leading-none flex flex-wrap items-center justify-between hover:text-orange transition duration-300"
               >
@@ -73,10 +72,10 @@ function OffsetMenu() {
                     />
                   </svg>
                 </span>
-              </Link>
+              </a>
             </li>
             <li className="border-b border-border-white py-4 group">
-              <Link
+              <a
                 href="/about"
                 className="text-white text-xl font-bold font-Syne leading-none flex flex-wrap items-center justify-between hover:text-orange transition duration-300"
               >
@@ -107,10 +106,10 @@ function OffsetMenu() {
                     />
                   </svg>
                 </span>
-              </Link>
+              </a>
             </li>
             <li className="border-b border-border-white py-4 group">
-              <Link
+              <a
                 href="/projects"
                 className="text-white text-xl font-bold font-Syne leading-none flex flex-wrap items-center justify-between hover:text-orange transition duration-300"
               >
@@ -141,10 +140,10 @@ function OffsetMenu() {
                     />
                   </svg>
                 </span>
-              </Link>
+              </a>
             </li>
             <li className="border-b border-border-white py-4 group">
-              <Link
+              <a
                 href="/project-details"
                 className="text-white text-xl font-bold font-Syne leading-none flex flex-wrap items-center justify-between hover:text-orange transition duration-300"
               >
@@ -175,10 +174,10 @@ function OffsetMenu() {
                     />
                   </svg>
                 </span>
-              </Link>
+              </a>
             </li>
             <li className="border-b border-border-white py-4 group">
-              <Link
+              <a
                 href="/blog"
                 className="text-white text-xl font-bold font-Syne leading-none flex flex-wrap items-center justify-between hover:text-orange transition duration-300"
               >
@@ -209,10 +208,10 @@ function OffsetMenu() {
                     />
                   </svg>
                 </span>
-              </Link>
+              </a>
             </li>
             <li className="border-b border-border-white py-4 group">
-              <Link
+              <a
                 href="/blog-details"
                 className="text-white text-xl font-bold font-Syne leading-none flex flex-wrap items-center justify-between hover:text-orange transition duration-300"
               >
@@ -243,10 +242,10 @@ function OffsetMenu() {
                     />
                   </svg>
                 </span>
-              </Link>
+              </a>
             </li>
             <li className="border-b border-border-white py-4 group">
-              <Link
+              <a
                 href="/contact"
                 className="text-white text-xl font-bold font-Syne leading-none flex flex-wrap items-center justify-between hover:text-orange transition duration-300"
               >
@@ -277,7 +276,7 @@ function OffsetMenu() {
                     />
                   </svg>
                 </span>
-              </Link>
+              </a>
             </li>
           </ul>
         </nav>

@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 function Headers() {
   return (
@@ -7,11 +6,11 @@ function Headers() {
       <header id="sticky-header" className="xl:pl-12 bg-white">
         <div className="flex pl-4 xl:pl-0">
           <div className="flex-1 flex items-center justify-between">
-            <Link href="/">
+            <a href="/">
               <img src="assets/images/logo/logo.png" alt="logo" />
-            </Link>
-            {/* Link Start */}
-            <Link
+            </a>
+            {/* a Start */}
+            <a
               href="/contact"
               className="flex items-center flex-wrap py-[6px] px-3 text-[15px] font-bold text-active leading-none mr-2 transition-all duration-300 hover:text-orange group"
             >
@@ -42,8 +41,8 @@ function Headers() {
                   />
                 </svg>
               </span>
-            </Link>
-            {/* Link End */}
+            </a>
+            {/* a End */}
           </div>
           {/* Button Start */}
           <div

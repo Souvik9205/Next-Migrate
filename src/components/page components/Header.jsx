@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 function Header() {
   return (
@@ -10,10 +9,10 @@ function Header() {
       >
         <div className="flex pl-4 xl:pl-0">
           <div className="flex-1 flex items-center justify-between border-b border-black-800 border-opacity-40">
-            <Link href="/">
+            <a href="/">
               <img src="assets/images/logo/logo.png" alt="logo" />
-            </Link>
-            <Link
+            </a>
+            <a
               href="/contact"
               className="flex items-center flex-wrap py-[6px] px-3 text-[15px] font-bold text-active leading-none mr-2 transition-all duration-300 hover:text-orange md:hover:text-white group"
             >
@@ -44,7 +43,7 @@ function Header() {
                   />
                 </svg>
               </span>
-            </Link>
+            </a>
           </div>
           <div
             id="offcanvas-toggle"

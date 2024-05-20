@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import CountUp from "react-countup";
-import Link from "next/link";
 function Hero() {
   const countUpRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
@@ -81,7 +80,7 @@ function Hero() {
               </p>
               <div className="flex flex-wrap mb-[50px] md:mb-[60px] xl:mb-[70px] 2xl:mb-[80px]">
                 <span data-aos="fade-right" data-aos-delay={1000}>
-                  <Link
+                  <a
                     href="/contact"
                     className="flex items-center flex-wrap btn-primary mr-2 group"
                   >
@@ -112,10 +111,10 @@ function Hero() {
                         />
                       </svg>
                     </span>
-                  </Link>
+                  </a>
                 </span>
                 <span data-aos="fade-right" data-aos-delay={1200}>
-                  <Link
+                  <a
                     href="/projects"
                     className="flex items-center flex-wrap btn-primary-outline group"
                   >
@@ -146,7 +145,7 @@ function Hero() {
                         />
                       </svg>
                     </span>
-                  </Link>
+                  </a>
                 </span>
               </div>
 
@@ -275,7 +274,7 @@ function Hero() {
             src="assets/images/hero/hero.png"
             alt="hero Image"
           />
-          <Link href="/contact">
+          <a href="/contact">
             <svg
               className="absolute bottom-[200px] lg:bottom-[80px] xl:bottom-[80px] right-[40px] lg:right-[150px] xl:right-[150px]"
               width={180}
@@ -387,7 +386,7 @@ function Hero() {
                 />
               </g>
             </svg>
-          </Link>
+          </a>
         </div>
       </section>
     </div>
